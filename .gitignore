@@ -18,3 +18,22 @@ api_runs.jsonl
 # OS/editor
 .vscode/
 .DS_Store
+
+# secrets
+.env
+
+# virtual environments
+genai311/
+genai_env/
+
+# python junk
+__pycache__/
+*.pyc
+
+# logs
+week1/experiments/api_runs.jsonl
+week1/experiments/runs.jsonl
+
+# editor/OS
+.vscode/
+.DS_Store
