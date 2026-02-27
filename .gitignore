@@ -1,3 +1,20 @@
+# secrets
 .env
+
+# virtual env
+genai311/
+genai_env/
+
+# python junk
 __pycache__/
 *.pyc
+
+# logs / runs
+week1/experiments/api_runs.jsonl
+week1/experiments/runs.jsonl
+runs.jsonl
+api_runs.jsonl
+
+# OS/editor
+.vscode/
+.DS_Store
