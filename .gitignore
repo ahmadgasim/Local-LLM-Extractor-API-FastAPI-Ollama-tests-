@@ -1,62 +1,48 @@
-
-# secrets
-.env
-
-# virtual env
-genai311/
-genai_env/
-
-# python junk
-__pycache__/
-*.pyc
-
-# logs / runs
-week1/experiments/api_runs.jsonl
-week1/experiments/runs.jsonl
-runs.jsonl
-api_runs.jsonl
-
-# OS/editor
-.vscode/
-.DS_Store
-
-<<<<<<< HEAD
-README.md
-=======
->>>>>>> 3808539d212307c7436294bdae9842e3852e5b8a
-
-# OS-generated files
-.DS_Store
-Thumbs.db
-
-# Editor and IDE settings
-.vscode/
-.idea/
-<<<<<<< HEAD
-
-=======
-*.swp
-*.swo
->>>>>>> 3808539d212307c7436294bdae9842e3852e5b8a
-
-# Logs
-*.log
-
-# Environment files
+# =========================
+# Secrets
+# =========================
 .env
 .env.*
 
-# Python
-__pycache__/
-*.py[cod]
-.venv/
+# =========================
+# Virtual Environments
+# =========================
+genai311/
+genai_env/
 venv/
+.venv/
 
-# Node.js
-node_modules/
-
-# Build and coverage outputs
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
 dist/
 build/
-coverage/
 
+# =========================
+# Logs / Generated Files
+# =========================
+week1/experiments/api_runs.jsonl
+week1/experiments/runs.jsonl
+*.log
+
+# =========================
+# Pytest
+# =========================
+.pytest_cache/
+
+# =========================
+# VS Code / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
