@@ -1,6 +1,4 @@
-<<<<<<< ours
-<<<<<<< ours
-<<<<<<< ours
+
 # secrets
 .env
 
@@ -22,12 +20,7 @@ api_runs.jsonl
 .vscode/
 .DS_Store
 
-README.md
-=======
-=======
->>>>>>> theirs
-=======
->>>>>>> theirs
+
 # OS-generated files
 .DS_Store
 Thumbs.db
@@ -58,10 +51,4 @@ node_modules/
 dist/
 build/
 coverage/
-<<<<<<< ours
-<<<<<<< ours
->>>>>>> theirs
-=======
->>>>>>> theirs
-=======
->>>>>>> theirs
+
